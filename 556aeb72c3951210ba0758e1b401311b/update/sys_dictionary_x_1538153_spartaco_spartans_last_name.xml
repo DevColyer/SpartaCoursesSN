@@ -33,7 +33,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="String">string</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>32</max_length>
         <name>x_1538153_spartaco_spartans</name>
         <next_element/>
@@ -58,7 +58,7 @@
         <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
         <sys_update_name>sys_dictionary_x_1538153_spartaco_spartans_last_name</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-21 10:35:47</sys_updated_on>
+        <sys_updated_on>2024-10-21 12:42:55</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

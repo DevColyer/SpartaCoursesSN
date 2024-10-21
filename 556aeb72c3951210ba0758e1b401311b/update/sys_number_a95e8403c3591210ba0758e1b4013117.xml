@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_1538153_spartaco_spartans">x_1538153_spartaco_spartans</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>SPA</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 12:41:44</sys_created_on>
+        <sys_id>a95e8403c3591210ba0758e1b4013117</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>SPA</sys_name>
+        <sys_package display_value="SpartaCourses" source="x_1538153_spartaco">556aeb72c3951210ba0758e1b401311b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_update_name>sys_number_a95e8403c3591210ba0758e1b4013117</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 12:41:44</sys_updated_on>
+    </sys_number>
+</record_update>
