@@ -4,15 +4,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2024-10-21 10:33:28</sys_created_on>
         <sys_id>72f0f3bac3951210ba0758e1b40131e1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>x_1538153_spartaco_spartans.x_1538153_spartaco.sparta_course</sys_name>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>x_1538153_spartaco_spartans.x_1538153_spartaco.sparta_course_admin</sys_name>
         <sys_package display_value="SpartaCourses" source="x_1538153_spartaco">556aeb72c3951210ba0758e1b401311b</sys_package>
         <sys_policy/>
         <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
         <sys_security_acl display_value="x_1538153_spartaco_spartans">6af0f3bac3951210ba0758e1b40131dd</sys_security_acl>
         <sys_update_name>sys_security_acl_role_72f0f3bac3951210ba0758e1b40131e1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2024-10-21 10:33:28</sys_updated_on>
-        <sys_user_role display_value="x_1538153_spartaco.sparta_course" name="x_1538153_spartaco.sparta_course">4b7a2f72c3951210ba0758e1b40131fd</sys_user_role>
+        <sys_updated_on>2024-10-21 13:18:16</sys_updated_on>
+        <sys_user_role display_value="x_1538153_spartaco.sparta_course_admin" name="x_1538153_spartaco.sparta_course_admin">5f7aeb72c3951210ba0758e1b4013125</sys_user_role>
     </sys_security_acl_role>
 </record_update>
