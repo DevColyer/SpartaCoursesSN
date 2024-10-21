@@ -1,0 +1,1633 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>false</ih_action>
+        <internal_name>get_all_courses_in_range</internal_name>
+        <label_cache>[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable1}}","label":"action➛variable1","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.startdate}}","label":"action➛variable","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.starddate}}","label":"action➛stardDate","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.start_date}}","label":"action➛Start Date","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action._}}","label":"action➛","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.lower_range}}","label":"action➛Lower Range","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.upper_range}}","label":"action➛Upper Range","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[18463ae2-966c-45fc-b875-ae8cb8ef5ab5].records}}","label":"step➛Look Up Records step➛Courses records","type":"step","ref":"","reference_display":"","base_type":"records","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master_snapshot>dbdc1447c3991210ba0758e1b4013152</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Get All Courses In Range</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:40:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>04bb10c3c3991210ba0758e1b401319b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Get All Courses In Range</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="SpartaCourses" source="x_1538153_spartaco">556aeb72c3951210ba0758e1b401311b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_04bb10c3c3991210ba0758e1b401319b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:13</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="DELETE" query="documentkey=04bb10c3c3991210ba0758e1b401319b"/>
+    <sys_variable_value action="DELETE" query="document_key=04bb10c3c3991210ba0758e1b401319b"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>04bb10c3c3991210ba0758e1b401319b</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:44:25</sys_created_on>
+        <sys_id>3bacdc07c3991210ba0758e1b401316d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:44:25</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">abacdc07c3991210ba0758e1b4013163</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>04bb10c3c3991210ba0758e1b401319b</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:44:25</sys_created_on>
+        <sys_id>77acdc07c3991210ba0758e1b401316d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:44:25</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">67acdc07c3991210ba0758e1b401315d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=04bb10c3c3991210ba0758e1b401319b"/>
+    <sys_element_mapping action="DELETE">
+        <field>courses</field>
+        <id>04bb10c3c3991210ba0758e1b401319b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:44:25</sys_created_on>
+        <sys_id>7facdc07c3991210ba0758e1b401316c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:44:25</sys_updated_on>
+        <table>var__m_sys_hub_action_output_04bb10c3c3991210ba0758e1b401319b</table>
+        <value>{{step[18463ae2-966c-45fc-b875-ae8cb8ef5ab5].records}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>__action_status__</field>
+        <id>04bb10c3c3991210ba0758e1b401319b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:44:25</sys_created_on>
+        <sys_id>f3acdc07c3991210ba0758e1b401316d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:44:25</sys_updated_on>
+        <table>var__m_sys_hub_action_output_04bb10c3c3991210ba0758e1b401319b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>__dont_treat_as_error__</field>
+        <id>04bb10c3c3991210ba0758e1b401319b</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:44:25</sys_created_on>
+        <sys_id>33acdc07c3991210ba0758e1b401316d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:44:25</sys_updated_on>
+        <table>var__m_sys_hub_action_output_04bb10c3c3991210ba0758e1b401319b</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="DELETE" query="action=04bb10c3c3991210ba0758e1b401319b^sys_idNOT IN2facdc07c3991210ba0758e1b401314c"/>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="Get All Courses In Range">04bb10c3c3991210ba0758e1b401319b</action>
+        <cid>18463ae2-966c-45fc-b875-ae8cb8ef5ab5</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Look Up Records step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Records">48526b2dc32a32002841b63b12d3ae72</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:44:24</sys_created_on>
+        <sys_id>2facdc07c3991210ba0758e1b401314c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:44:24</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=2facdc07c3991210ba0758e1b401314c"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2facdc07c3991210ba0758e1b401314c</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:44:24</sys_created_on>
+        <sys_id>abacdc07c3991210ba0758e1b4013153</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:44:24</sys_updated_on>
+        <value>course_id</value>
+        <variable display_value="Order by">2df79dd187003300663ca1bb36cb0b33</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>2facdc07c3991210ba0758e1b401314c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:44:24</sys_created_on>
+        <sys_id>e3acdc07c3991210ba0758e1b4013154</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:44:24</sys_updated_on>
+        <value>x_1538153_spartaco_courses</value>
+        <variable display_value="Table">4d19bb21c36a32002841b63b12d3aeef</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=2facdc07c3991210ba0758e1b401314c"/>
+    <sys_element_mapping action="DELETE">
+        <field>conditions</field>
+        <id>2facdc07c3991210ba0758e1b401314c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:44:24</sys_created_on>
+        <sys_id>67acdc07c3991210ba0758e1b4013153</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:44:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_48526b2dc32a32002841b63b12d3ae72</table>
+        <value>start_date&gt;={{action.lower_range}}^start_date&lt;={{action.upper_range}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>sort_column</field>
+        <id>2facdc07c3991210ba0758e1b401314c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:44:24</sys_created_on>
+        <sys_id>6facdc07c3991210ba0758e1b4013152</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:44:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_48526b2dc32a32002841b63b12d3ae72</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>2facdc07c3991210ba0758e1b401314c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:44:24</sys_created_on>
+        <sys_id>2bacdc07c3991210ba0758e1b4013153</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:44:24</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_48526b2dc32a32002841b63b12d3ae72</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="DELETE" query="documentkey=2facdc07c3991210ba0758e1b401314c"/>
+    <sys_hub_step_ext_input action="DELETE" query="model=2facdc07c3991210ba0758e1b401314c"/>
+    <sys_hub_step_ext_output action="DELETE" query="model=2facdc07c3991210ba0758e1b401314c"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=2facdc07c3991210ba0758e1b401314c"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_step_ext_output_2facdc07c3991210ba0758e1b401314c"/>
+    <sys_hub_action_input action="DELETE" query="model=04bb10c3c3991210ba0758e1b401319b^sys_idNOT IN63ac18c3c3991210ba0758e1b4013191,ebacdc07c3991210ba0758e1b4013147"/>
+    <sys_hub_action_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=datetime,uiTypeLabel=Basic Date/Time,uiUniqueId=d2e1c0f1-39ac-4316-b683-9e257964891e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>lower_range</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">datetime</internal_type>
+        <label>Lower Range</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get All Courses In Range">04bb10c3c3991210ba0758e1b401319b</model>
+        <model_id>04bb10c3c3991210ba0758e1b401319b</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_04bb10c3c3991210ba0758e1b401319b</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:44:24</sys_created_on>
+        <sys_id>63ac18c3c3991210ba0758e1b4013191</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:44:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=63ac18c3c3991210ba0758e1b4013191"/>
+    <sys_hub_action_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=datetime,uiTypeLabel=Basic Date/Time,uiUniqueId=03fe1833-6d45-4ee8-b209-073eed6aee05</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>upper_range</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">datetime</internal_type>
+        <label>Upper Range</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get All Courses In Range">04bb10c3c3991210ba0758e1b401319b</model>
+        <model_id>04bb10c3c3991210ba0758e1b401319b</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_04bb10c3c3991210ba0758e1b401319b</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:44:24</sys_created_on>
+        <sys_id>ebacdc07c3991210ba0758e1b4013147</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:44:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=ebacdc07c3991210ba0758e1b4013147"/>
+    <sys_hub_action_output action="DELETE" query="model=04bb10c3c3991210ba0758e1b401319b^sys_idNOT IN67acdc07c3991210ba0758e1b401315d,6facdc07c3991210ba0758e1b4013155,abacdc07c3991210ba0758e1b4013163"/>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=5a2c26e2-45f0-495d-ab21-6274e8fb86a2,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get All Courses In Range">04bb10c3c3991210ba0758e1b401319b</model>
+        <model_id>04bb10c3c3991210ba0758e1b401319b</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_04bb10c3c3991210ba0758e1b401319b</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:44:24</sys_created_on>
+        <sys_id>67acdc07c3991210ba0758e1b401315d</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=67acdc07c3991210ba0758e1b401315d"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=67acdc07c3991210ba0758e1b401315d"/>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_list,uiTypeLabel=List,uiUniqueId=3c18f2b0-aa29-4769-b6bf-994df85f8510</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1538153_spartaco_courses</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>courses</element>
+        <element_prototype display_value="Records" element="records" name="var__m_sys_flow_step_definition_output_48526b2dc32a32002841b63b12d3ae72">5db8f721c36a32002841b63b12d3aeb7</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">glide_list</internal_type>
+        <label>Courses</label>
+        <mandatory>false</mandatory>
+        <max_length>1024</max_length>
+        <model display_value="Get All Courses In Range">04bb10c3c3991210ba0758e1b401319b</model>
+        <model_id>04bb10c3c3991210ba0758e1b401319b</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_04bb10c3c3991210ba0758e1b401319b</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1538153_spartaco_courses">x_1538153_spartaco_courses</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:44:24</sys_created_on>
+        <sys_id>6facdc07c3991210ba0758e1b4013155</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:11</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=6facdc07c3991210ba0758e1b4013155"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=6facdc07c3991210ba0758e1b4013155"/>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=cc4393af-cb1a-497a-b8b6-c7c6fe149e9f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get All Courses In Range">04bb10c3c3991210ba0758e1b401319b</model>
+        <model_id>04bb10c3c3991210ba0758e1b401319b</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_04bb10c3c3991210ba0758e1b401319b</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:44:24</sys_created_on>
+        <sys_id>abacdc07c3991210ba0758e1b4013163</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:44:24</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=abacdc07c3991210ba0758e1b4013163"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=abacdc07c3991210ba0758e1b4013163"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=04bb10c3c3991210ba0758e1b401319b"/>
+    <sys_hub_action_status_metadata action="DELETE" query="action_type_id=04bb10c3c3991210ba0758e1b401319b^sys_idNOT INf3acdc07c3991210ba0758e1b401316f"/>
+    <sys_hub_action_status_metadata action="DELETE">
+        <action_type_id display_value="Get All Courses In Range">04bb10c3c3991210ba0758e1b401319b</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:44:25</sys_created_on>
+        <sys_id>f3acdc07c3991210ba0758e1b401316f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:44:25</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="DELETE" query="action_status_metadata_id=f3acdc07c3991210ba0758e1b401316f"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_input_04bb10c3c3991210ba0758e1b401319b^sys_idNOT INa7ac18c3c3991210ba0758e1b4013196,efacdc07c3991210ba0758e1b401314a"/>
+    <sys_documentation action="DELETE">
+        <element>lower_range</element>
+        <help/>
+        <hint/>
+        <label>Lower Range</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_04bb10c3c3991210ba0758e1b401319b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:44:24</sys_created_on>
+        <sys_id>a7ac18c3c3991210ba0758e1b4013196</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SpartaCourses" source="x_1538153_spartaco">556aeb72c3951210ba0758e1b401311b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:44:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>upper_range</element>
+        <help/>
+        <hint/>
+        <label>Upper Range</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_04bb10c3c3991210ba0758e1b401319b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:44:24</sys_created_on>
+        <sys_id>efacdc07c3991210ba0758e1b401314a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SpartaCourses" source="x_1538153_spartaco">556aeb72c3951210ba0758e1b401311b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:44:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_input_04bb10c3c3991210ba0758e1b401319b"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_output_04bb10c3c3991210ba0758e1b401319b^sys_idNOT IN23acdc07c3991210ba0758e1b4013167,67acdc07c3991210ba0758e1b401315c,abacdc07c3991210ba0758e1b4013162"/>
+    <sys_documentation action="DELETE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_04bb10c3c3991210ba0758e1b401319b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:44:25</sys_created_on>
+        <sys_id>23acdc07c3991210ba0758e1b4013167</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SpartaCourses" source="x_1538153_spartaco">556aeb72c3951210ba0758e1b401311b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:44:25</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>courses</element>
+        <help/>
+        <hint/>
+        <label>Courses</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_04bb10c3c3991210ba0758e1b401319b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:44:24</sys_created_on>
+        <sys_id>67acdc07c3991210ba0758e1b401315c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SpartaCourses" source="x_1538153_spartaco">556aeb72c3951210ba0758e1b401311b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:44:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_04bb10c3c3991210ba0758e1b401319b</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:44:24</sys_created_on>
+        <sys_id>abacdc07c3991210ba0758e1b4013162</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SpartaCourses" source="x_1538153_spartaco">556aeb72c3951210ba0758e1b401311b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:44:24</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_output_04bb10c3c3991210ba0758e1b401319b"/>
+    <sys_hub_action_plan action="DELETE" query="action_id=04bb10c3c3991210ba0758e1b401319b"/>
+    <sys_hub_action_type_snapshot action="DELETE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="">{}</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>get_all_courses_in_range</internal_name>
+        <label_cache>[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable1}}","label":"action➛variable1","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.startdate}}","label":"action➛variable","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.starddate}}","label":"action➛stardDate","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.start_date}}","label":"action➛Start Date","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action._}}","label":"action➛","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.lower_range}}","label":"action➛Lower Range","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.upper_range}}","label":"action➛Upper Range","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[18463ae2-966c-45fc-b875-ae8cb8ef5ab5].records}}","label":"step➛Look Up Records step➛Courses records","type":"step","ref":"","reference_display":"","base_type":"records","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Get All Courses In Range</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Get All Courses In Range">04bb10c3c3991210ba0758e1b401319b</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:45:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dbdc1447c3991210ba0758e1b4013152</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:12</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="DELETE" query="documentkey=dbdc1447c3991210ba0758e1b4013152"/>
+    <sys_variable_value action="DELETE" query="document_key=dbdc1447c3991210ba0758e1b4013152"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>dbdc1447c3991210ba0758e1b4013152</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:45:13</sys_created_on>
+        <sys_id>27dc1447c3991210ba0758e1b4013195</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:13</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">93dc1447c3991210ba0758e1b4013179</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>dbdc1447c3991210ba0758e1b4013152</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:45:13</sys_created_on>
+        <sys_id>e7dc1447c3991210ba0758e1b4013195</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:13</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">97dc1447c3991210ba0758e1b401317f</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=dbdc1447c3991210ba0758e1b4013152"/>
+    <sys_element_mapping action="DELETE">
+        <field>courses</field>
+        <id>dbdc1447c3991210ba0758e1b4013152</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:45:13</sys_created_on>
+        <sys_id>2fdc1447c3991210ba0758e1b4013194</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:13</sys_updated_on>
+        <table>var__m_sys_hub_action_output_dbdc1447c3991210ba0758e1b4013152</table>
+        <value>{{step[18463ae2-966c-45fc-b875-ae8cb8ef5ab5].records}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>__action_status__</field>
+        <id>dbdc1447c3991210ba0758e1b4013152</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:45:13</sys_created_on>
+        <sys_id>a3dc1447c3991210ba0758e1b4013195</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:13</sys_updated_on>
+        <table>var__m_sys_hub_action_output_dbdc1447c3991210ba0758e1b4013152</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>__dont_treat_as_error__</field>
+        <id>dbdc1447c3991210ba0758e1b4013152</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:45:13</sys_created_on>
+        <sys_id>efdc1447c3991210ba0758e1b4013194</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:13</sys_updated_on>
+        <table>var__m_sys_hub_action_output_dbdc1447c3991210ba0758e1b4013152</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="DELETE" query="action=dbdc1447c3991210ba0758e1b4013152^sys_idNOT INd3dc1447c3991210ba0758e1b401316c"/>
+    <sys_hub_step_instance action="DELETE">
+        <action display_value="Get All Courses In Range">dbdc1447c3991210ba0758e1b4013152</action>
+        <cid>18463ae2-966c-45fc-b875-ae8cb8ef5ab5</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>Look Up Records step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="Look Up Records">48526b2dc32a32002841b63b12d3ae72</step_type>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:45:12</sys_created_on>
+        <sys_id>d3dc1447c3991210ba0758e1b401316c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:12</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="DELETE" query="document_key=d3dc1447c3991210ba0758e1b401316c"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d3dc1447c3991210ba0758e1b401316c</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:45:12</sys_created_on>
+        <sys_id>13dc1447c3991210ba0758e1b4013171</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:12</sys_updated_on>
+        <value>course_id</value>
+        <variable display_value="Order by">2df79dd187003300663ca1bb36cb0b33</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_hub_step_instance</document>
+        <document_key>d3dc1447c3991210ba0758e1b401316c</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:45:12</sys_created_on>
+        <sys_id>d3dc1447c3991210ba0758e1b4013171</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:12</sys_updated_on>
+        <value>x_1538153_spartaco_courses</value>
+        <variable display_value="Table">4d19bb21c36a32002841b63b12d3aeef</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=d3dc1447c3991210ba0758e1b401316c"/>
+    <sys_element_mapping action="DELETE">
+        <field>conditions</field>
+        <id>d3dc1447c3991210ba0758e1b401316c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:45:12</sys_created_on>
+        <sys_id>dbdc1447c3991210ba0758e1b4013170</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:12</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_48526b2dc32a32002841b63b12d3ae72</table>
+        <value>start_date&gt;={{action.lower_range}}^start_date&lt;={{action.upper_range}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>sort_column</field>
+        <id>d3dc1447c3991210ba0758e1b401316c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:45:12</sys_created_on>
+        <sys_id>1bdc1447c3991210ba0758e1b4013170</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:12</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_48526b2dc32a32002841b63b12d3ae72</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="DELETE">
+        <field>table_name</field>
+        <id>d3dc1447c3991210ba0758e1b401316c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:45:12</sys_created_on>
+        <sys_id>9fdc1447c3991210ba0758e1b4013170</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:12</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_48526b2dc32a32002841b63b12d3ae72</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="DELETE" query="documentkey=d3dc1447c3991210ba0758e1b401316c"/>
+    <sys_hub_step_ext_input action="DELETE" query="model=d3dc1447c3991210ba0758e1b401316c"/>
+    <sys_hub_step_ext_output action="DELETE" query="model=d3dc1447c3991210ba0758e1b401316c"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=d3dc1447c3991210ba0758e1b401316c"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_step_ext_output_d3dc1447c3991210ba0758e1b401316c"/>
+    <sys_hub_action_input action="DELETE" query="model=dbdc1447c3991210ba0758e1b4013152^sys_idNOT IN97dc1447c3991210ba0758e1b4013162,d3dc1447c3991210ba0758e1b4013167"/>
+    <sys_hub_action_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=datetime,uiTypeLabel=Basic Date/Time,uiUniqueId=d2e1c0f1-39ac-4316-b683-9e257964891e</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>lower_range</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">datetime</internal_type>
+        <label>Lower Range</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get All Courses In Range">dbdc1447c3991210ba0758e1b4013152</model>
+        <model_id>dbdc1447c3991210ba0758e1b4013152</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_dbdc1447c3991210ba0758e1b4013152</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:45:12</sys_created_on>
+        <sys_id>97dc1447c3991210ba0758e1b4013162</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=97dc1447c3991210ba0758e1b4013162"/>
+    <sys_hub_action_input action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=datetime,uiTypeLabel=Basic Date/Time,uiUniqueId=03fe1833-6d45-4ee8-b209-073eed6aee05</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>upper_range</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">datetime</internal_type>
+        <label>Upper Range</label>
+        <mandatory>true</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get All Courses In Range">dbdc1447c3991210ba0758e1b4013152</model>
+        <model_id>dbdc1447c3991210ba0758e1b4013152</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_dbdc1447c3991210ba0758e1b4013152</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:45:12</sys_created_on>
+        <sys_id>d3dc1447c3991210ba0758e1b4013167</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:12</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=d3dc1447c3991210ba0758e1b4013167"/>
+    <sys_hub_action_output action="DELETE" query="model=dbdc1447c3991210ba0758e1b4013152^sys_idNOT IN1bdc1447c3991210ba0758e1b4013172,93dc1447c3991210ba0758e1b4013179,97dc1447c3991210ba0758e1b401317f"/>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_list,uiTypeLabel=List,uiUniqueId=3c18f2b0-aa29-4769-b6bf-994df85f8510</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_1538153_spartaco_courses</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>courses</element>
+        <element_prototype display_value="Records" element="records" name="var__m_sys_flow_step_definition_output_48526b2dc32a32002841b63b12d3ae72">5db8f721c36a32002841b63b12d3aeb7</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">glide_list</internal_type>
+        <label>Courses</label>
+        <mandatory>false</mandatory>
+        <max_length>1024</max_length>
+        <model display_value="Get All Courses In Range">dbdc1447c3991210ba0758e1b4013152</model>
+        <model_id>dbdc1447c3991210ba0758e1b4013152</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_dbdc1447c3991210ba0758e1b4013152</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_1538153_spartaco_courses">x_1538153_spartaco_courses</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:45:12</sys_created_on>
+        <sys_id>1bdc1447c3991210ba0758e1b4013172</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=1bdc1447c3991210ba0758e1b4013172"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=1bdc1447c3991210ba0758e1b4013172"/>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=5a2c26e2-45f0-495d-ab21-6274e8fb86a2,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Get All Courses In Range">dbdc1447c3991210ba0758e1b4013152</model>
+        <model_id>dbdc1447c3991210ba0758e1b4013152</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_dbdc1447c3991210ba0758e1b4013152</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:45:12</sys_created_on>
+        <sys_id>93dc1447c3991210ba0758e1b4013179</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=93dc1447c3991210ba0758e1b4013179"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=93dc1447c3991210ba0758e1b4013179"/>
+    <sys_hub_action_output action="DELETE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=cc4393af-cb1a-497a-b8b6-c7c6fe149e9f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Get All Courses In Range">dbdc1447c3991210ba0758e1b4013152</model>
+        <model_id>dbdc1447c3991210ba0758e1b4013152</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_dbdc1447c3991210ba0758e1b4013152</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:45:13</sys_created_on>
+        <sys_id>97dc1447c3991210ba0758e1b401317f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="DELETE" query="action_input=97dc1447c3991210ba0758e1b401317f"/>
+    <sys_hub_input_scripts action="DELETE" query="instance=97dc1447c3991210ba0758e1b401317f"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=dbdc1447c3991210ba0758e1b4013152"/>
+    <sys_hub_action_status_metadata action="DELETE" query="action_type_id=dbdc1447c3991210ba0758e1b4013152^sys_idNOT INa3dc1447c3991210ba0758e1b4013197"/>
+    <sys_hub_action_status_metadata action="DELETE">
+        <action_type_id display_value="Get All Courses In Range">dbdc1447c3991210ba0758e1b4013152</action_type_id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:45:13</sys_created_on>
+        <sys_id>a3dc1447c3991210ba0758e1b4013197</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:13</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="DELETE" query="action_status_metadata_id=a3dc1447c3991210ba0758e1b4013197"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_input_dbdc1447c3991210ba0758e1b4013152^sys_idNOT IN97dc1447c3991210ba0758e1b401316a,d3dc1447c3991210ba0758e1b4013166"/>
+    <sys_documentation action="DELETE">
+        <element>upper_range</element>
+        <help/>
+        <hint/>
+        <label>Upper Range</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_dbdc1447c3991210ba0758e1b4013152</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:45:12</sys_created_on>
+        <sys_id>97dc1447c3991210ba0758e1b401316a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SpartaCourses" source="x_1538153_spartaco">556aeb72c3951210ba0758e1b401311b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>lower_range</element>
+        <help/>
+        <hint/>
+        <label>Lower Range</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_dbdc1447c3991210ba0758e1b4013152</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:45:12</sys_created_on>
+        <sys_id>d3dc1447c3991210ba0758e1b4013166</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SpartaCourses" source="x_1538153_spartaco">556aeb72c3951210ba0758e1b401311b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_input_dbdc1447c3991210ba0758e1b4013152"/>
+    <sys_documentation action="DELETE" query="name=var__m_sys_hub_action_output_dbdc1447c3991210ba0758e1b4013152^sys_idNOT IN93dc1447c3991210ba0758e1b4013178,97dc1447c3991210ba0758e1b401317e,dbdc1447c3991210ba0758e1b4013182"/>
+    <sys_documentation action="DELETE">
+        <element>courses</element>
+        <help/>
+        <hint/>
+        <label>Courses</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_dbdc1447c3991210ba0758e1b4013152</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:45:12</sys_created_on>
+        <sys_id>93dc1447c3991210ba0758e1b4013178</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SpartaCourses" source="x_1538153_spartaco">556aeb72c3951210ba0758e1b401311b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:12</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_dbdc1447c3991210ba0758e1b4013152</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:45:13</sys_created_on>
+        <sys_id>97dc1447c3991210ba0758e1b401317e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SpartaCourses" source="x_1538153_spartaco">556aeb72c3951210ba0758e1b401311b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="DELETE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_dbdc1447c3991210ba0758e1b4013152</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:45:13</sys_created_on>
+        <sys_id>dbdc1447c3991210ba0758e1b4013182</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="SpartaCourses" source="x_1538153_spartaco">556aeb72c3951210ba0758e1b401311b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_action_output_dbdc1447c3991210ba0758e1b4013152"/>
+    <sys_hub_action_type_definition action="DELETE">
+        <sys_id>04bb10c3c3991210ba0758e1b401319b</sys_id>
+        <latest_snapshot>dbdc1447c3991210ba0758e1b4013152</latest_snapshot>
+        <compiler_build>glide-xanadu-07-02-2024__patch0-07-16-2024_07-27-2024_1019.zip</compiler_build>
+    </sys_hub_action_type_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</application>
+        <file_path/>
+        <instance_id>5fcc1b271bf9bd901024eb9b2d4bcb16</instance_id>
+        <instance_name>dev188198</instance_name>
+        <name>sys_hub_action_type_definition_04bb10c3c3991210ba0758e1b401319b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_hub_action_type_definition"&gt;&lt;sys_hub_action_type_definition action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;action_status/&gt;&lt;action_template/&gt;&lt;active&gt;true&lt;/active&gt;&lt;annotation/&gt;&lt;attributes&gt;{labelCacheCleanUpExecuted=true}&lt;/attributes&gt;&lt;authored_on_release_version&gt;26000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category display_value=""&gt;{}&lt;/category&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;flow_priority/&gt;&lt;ih_action&gt;false&lt;/ih_action&gt;&lt;internal_name&gt;get_all_courses_in_range&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable1}}","label":"action➛variable1","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.startdate}}","label":"action➛variable","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.starddate}}","label":"action➛stardDate","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.start_date}}","label":"action➛Start Date","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action._}}","label":"action➛","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.lower_range}}","label":"action➛Lower Range","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.upper_range}}","label":"action➛Upper Range","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[18463ae2-966c-45fc-b875-ae8cb8ef5ab5].records}}","label":"step➛Look Up Records step➛Courses records","type":"step","ref":"","reference_display":"","base_type":"records","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]&lt;/label_cache&gt;&lt;master_snapshot&gt;dbdc1447c3991210ba0758e1b4013152&lt;/master_snapshot&gt;&lt;master_snapshot_digest/&gt;&lt;name&gt;Get All Courses In Range&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;outputs/&gt;&lt;pre_compiled&gt;false&lt;/pre_compiled&gt;&lt;state&gt;published&lt;/state&gt;&lt;sys_class_name&gt;sys_hub_action_type_definition&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:40:04&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;04bb10c3c3991210ba0758e1b401319b&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Get All Courses In Range&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="SpartaCourses" source="x_1538153_spartaco"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SpartaCourses"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_hub_action_type_definition_04bb10c3c3991210ba0758e1b401319b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:13&lt;/sys_updated_on&gt;&lt;system_level&gt;false&lt;/system_level&gt;&lt;type/&gt;&lt;/sys_hub_action_type_definition&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=04bb10c3c3991210ba0758e1b401319b"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=04bb10c3c3991210ba0758e1b401319b"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_type_definition&lt;/document&gt;&lt;document_key&gt;04bb10c3c3991210ba0758e1b401319b&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:44:25&lt;/sys_created_on&gt;&lt;sys_id&gt;3bacdc07c3991210ba0758e1b401316d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:44:25&lt;/sys_updated_on&gt;&lt;value&gt;{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}&lt;/value&gt;&lt;variable display_value="Action Status"&gt;abacdc07c3991210ba0758e1b4013163&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_type_definition&lt;/document&gt;&lt;document_key&gt;04bb10c3c3991210ba0758e1b401319b&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:44:25&lt;/sys_created_on&gt;&lt;sys_id&gt;77acdc07c3991210ba0758e1b401316d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:44:25&lt;/sys_updated_on&gt;&lt;value&gt;0&lt;/value&gt;&lt;variable display_value="Don't Treat as Error"&gt;67acdc07c3991210ba0758e1b401315d&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=04bb10c3c3991210ba0758e1b401319b"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;courses&lt;/field&gt;&lt;id&gt;04bb10c3c3991210ba0758e1b401319b&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:44:25&lt;/sys_created_on&gt;&lt;sys_id&gt;7facdc07c3991210ba0758e1b401316c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:44:25&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_output_04bb10c3c3991210ba0758e1b401319b&lt;/table&gt;&lt;value&gt;{{step[18463ae2-966c-45fc-b875-ae8cb8ef5ab5].records}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;__action_status__&lt;/field&gt;&lt;id&gt;04bb10c3c3991210ba0758e1b401319b&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:44:25&lt;/sys_created_on&gt;&lt;sys_id&gt;f3acdc07c3991210ba0758e1b401316d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:44:25&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_output_04bb10c3c3991210ba0758e1b401319b&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;__dont_treat_as_error__&lt;/field&gt;&lt;id&gt;04bb10c3c3991210ba0758e1b401319b&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:44:25&lt;/sys_created_on&gt;&lt;sys_id&gt;33acdc07c3991210ba0758e1b401316d&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:44:25&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_output_04bb10c3c3991210ba0758e1b401319b&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_step_instance action="delete_multiple" query="action=04bb10c3c3991210ba0758e1b401319b^sys_idNOT IN2facdc07c3991210ba0758e1b401314c"/&gt;&lt;sys_hub_step_instance action="INSERT_OR_UPDATE"&gt;&lt;action display_value="Get All Courses In Range"&gt;04bb10c3c3991210ba0758e1b401319b&lt;/action&gt;&lt;cid&gt;18463ae2-966c-45fc-b875-ae8cb8ef5ab5&lt;/cid&gt;&lt;error_handling_type&gt;1&lt;/error_handling_type&gt;&lt;extended_inputs/&gt;&lt;extended_outputs/&gt;&lt;icon/&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;label&gt;Look Up Records step&lt;/label&gt;&lt;order&gt;1&lt;/order&gt;&lt;outputs/&gt;&lt;section/&gt;&lt;step_type display_value="Look Up Records"&gt;48526b2dc32a32002841b63b12d3ae72&lt;/step_type&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:44:24&lt;/sys_created_on&gt;&lt;sys_id&gt;2facdc07c3991210ba0758e1b401314c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="SpartaCourses"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:44:24&lt;/sys_updated_on&gt;&lt;/sys_hub_step_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=2facdc07c3991210ba0758e1b401314c"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;2facdc07c3991210ba0758e1b401314c&lt;/document_key&gt;&lt;order&gt;300&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:44:24&lt;/sys_created_on&gt;&lt;sys_id&gt;abacdc07c3991210ba0758e1b4013153&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:44:24&lt;/sys_updated_on&gt;&lt;value&gt;course_id&lt;/value&gt;&lt;variable display_value="Order by"&gt;2df79dd187003300663ca1bb36cb0b33&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;2facdc07c3991210ba0758e1b401314c&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:44:24&lt;/sys_created_on&gt;&lt;sys_id&gt;e3acdc07c3991210ba0758e1b4013154&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:44:24&lt;/sys_updated_on&gt;&lt;value&gt;x_1538153_spartaco_courses&lt;/value&gt;&lt;variable display_value="Table"&gt;4d19bb21c36a32002841b63b12d3aeef&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=2facdc07c3991210ba0758e1b401314c"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;conditions&lt;/field&gt;&lt;id&gt;2facdc07c3991210ba0758e1b401314c&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:44:24&lt;/sys_created_on&gt;&lt;sys_id&gt;67acdc07c3991210ba0758e1b4013153&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:44:24&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_48526b2dc32a32002841b63b12d3ae72&lt;/table&gt;&lt;value&gt;start_date&amp;gt;={{action.lower_range}}^start_date&amp;lt;={{action.upper_range}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;sort_column&lt;/field&gt;&lt;id&gt;2facdc07c3991210ba0758e1b401314c&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:44:24&lt;/sys_created_on&gt;&lt;sys_id&gt;6facdc07c3991210ba0758e1b4013152&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:44:24&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_48526b2dc32a32002841b63b12d3ae72&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;2facdc07c3991210ba0758e1b401314c&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:44:24&lt;/sys_created_on&gt;&lt;sys_id&gt;2bacdc07c3991210ba0758e1b4013153&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:44:24&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_48526b2dc32a32002841b63b12d3ae72&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=2facdc07c3991210ba0758e1b401314c"/&gt;&lt;sys_hub_step_ext_input action="delete_multiple" query="model=2facdc07c3991210ba0758e1b401314c"/&gt;&lt;sys_hub_step_ext_output action="delete_multiple" query="model=2facdc07c3991210ba0758e1b401314c"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=2facdc07c3991210ba0758e1b401314c"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_2facdc07c3991210ba0758e1b401314c"/&gt;&lt;sys_hub_action_input action="delete_multiple" query="model=04bb10c3c3991210ba0758e1b401319b^sys_idNOT IN63ac18c3c3991210ba0758e1b4013191,ebacdc07c3991210ba0758e1b4013147"/&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=datetime,uiTypeLabel=Basic Date/Time,uiUniqueId=d2e1c0f1-39ac-4316-b683-9e257964891e&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;lower_range&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;datetime&lt;/internal_type&gt;&lt;label&gt;Lower Range&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="Get All Courses In Range"&gt;04bb10c3c3991210ba0758e1b401319b&lt;/model&gt;&lt;model_id&gt;04bb10c3c3991210ba0758e1b401319b&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_04bb10c3c3991210ba0758e1b401319b&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:44:24&lt;/sys_created_on&gt;&lt;sys_id&gt;63ac18c3c3991210ba0758e1b4013191&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SpartaCourses"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:44:24&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=63ac18c3c3991210ba0758e1b4013191"/&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=datetime,uiTypeLabel=Basic Date/Time,uiUniqueId=03fe1833-6d45-4ee8-b209-073eed6aee05&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;upper_range&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;datetime&lt;/internal_type&gt;&lt;label&gt;Upper Range&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="Get All Courses In Range"&gt;04bb10c3c3991210ba0758e1b401319b&lt;/model&gt;&lt;model_id&gt;04bb10c3c3991210ba0758e1b401319b&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_04bb10c3c3991210ba0758e1b401319b&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:44:24&lt;/sys_created_on&gt;&lt;sys_id&gt;ebacdc07c3991210ba0758e1b4013147&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SpartaCourses"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:44:24&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ebacdc07c3991210ba0758e1b4013147"/&gt;&lt;sys_hub_action_output action="delete_multiple" query="model=04bb10c3c3991210ba0758e1b401319b^sys_idNOT IN67acdc07c3991210ba0758e1b401315d,6facdc07c3991210ba0758e1b4013155,abacdc07c3991210ba0758e1b4013163"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=5a2c26e2-45f0-495d-ab21-6274e8fb86a2,visible_in_ui=false&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;true&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;__dont_treat_as_error__&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;label&gt;Don't Treat as Error&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="Get All Courses In Range"&gt;04bb10c3c3991210ba0758e1b401319b&lt;/model&gt;&lt;model_id&gt;04bb10c3c3991210ba0758e1b401319b&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_04bb10c3c3991210ba0758e1b401319b&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:44:24&lt;/sys_created_on&gt;&lt;sys_id&gt;67acdc07c3991210ba0758e1b401315d&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SpartaCourses"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:11&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=67acdc07c3991210ba0758e1b401315d"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=67acdc07c3991210ba0758e1b401315d"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_list,uiTypeLabel=List,uiUniqueId=3c18f2b0-aa29-4769-b6bf-994df85f8510&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table&gt;x_1538153_spartaco_courses&lt;/choice_table&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;courses&lt;/element&gt;&lt;element_prototype display_value="Records" element="records" name="var__m_sys_flow_step_definition_output_48526b2dc32a32002841b63b12d3ae72"&gt;5db8f721c36a32002841b63b12d3aeb7&lt;/element_prototype&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value=""&gt;glide_list&lt;/internal_type&gt;&lt;label&gt;Courses&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;1024&lt;/max_length&gt;&lt;model display_value="Get All Courses In Range"&gt;04bb10c3c3991210ba0758e1b401319b&lt;/model&gt;&lt;model_id&gt;04bb10c3c3991210ba0758e1b401319b&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_04bb10c3c3991210ba0758e1b401319b&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="x_1538153_spartaco_courses"&gt;x_1538153_spartaco_courses&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:44:24&lt;/sys_created_on&gt;&lt;sys_id&gt;6facdc07c3991210ba0758e1b4013155&lt;/sys_id&gt;&lt;sys_mod_count&gt;4&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SpartaCourses"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:11&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6facdc07c3991210ba0758e1b4013155"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=6facdc07c3991210ba0758e1b4013155"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=cc4393af-cb1a-497a-b8b6-c7c6fe149e9f&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;__action_status__&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Action Status&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;65000&lt;/max_length&gt;&lt;model display_value="Get All Courses In Range"&gt;04bb10c3c3991210ba0758e1b401319b&lt;/model&gt;&lt;model_id&gt;04bb10c3c3991210ba0758e1b401319b&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_definition&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_04bb10c3c3991210ba0758e1b401319b&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;3&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:44:24&lt;/sys_created_on&gt;&lt;sys_id&gt;abacdc07c3991210ba0758e1b4013163&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SpartaCourses"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:44:24&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=abacdc07c3991210ba0758e1b4013163"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=abacdc07c3991210ba0758e1b4013163"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=04bb10c3c3991210ba0758e1b401319b"/&gt;&lt;sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=04bb10c3c3991210ba0758e1b401319b^sys_idNOT INf3acdc07c3991210ba0758e1b401316f"/&gt;&lt;sys_hub_action_status_metadata action="INSERT_OR_UPDATE"&gt;&lt;action_type_id display_value="Get All Courses In Range"&gt;04bb10c3c3991210ba0758e1b401319b&lt;/action_type_id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:44:25&lt;/sys_created_on&gt;&lt;sys_id&gt;f3acdc07c3991210ba0758e1b401316f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:44:25&lt;/sys_updated_on&gt;&lt;/sys_hub_action_status_metadata&gt;&lt;sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=f3acdc07c3991210ba0758e1b401316f"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_04bb10c3c3991210ba0758e1b401319b^sys_idNOT INa7ac18c3c3991210ba0758e1b4013196,efacdc07c3991210ba0758e1b401314a"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;lower_range&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Lower Range&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_input_04bb10c3c3991210ba0758e1b401319b&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:44:24&lt;/sys_created_on&gt;&lt;sys_id&gt;a7ac18c3c3991210ba0758e1b4013196&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="SpartaCourses" source="x_1538153_spartaco"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SpartaCourses"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:44:24&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;upper_range&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Upper Range&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_input_04bb10c3c3991210ba0758e1b401319b&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:44:24&lt;/sys_created_on&gt;&lt;sys_id&gt;efacdc07c3991210ba0758e1b401314a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="SpartaCourses" source="x_1538153_spartaco"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SpartaCourses"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:44:24&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_04bb10c3c3991210ba0758e1b401319b"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_04bb10c3c3991210ba0758e1b401319b^sys_idNOT IN23acdc07c3991210ba0758e1b4013167,67acdc07c3991210ba0758e1b401315c,abacdc07c3991210ba0758e1b4013162"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;__action_status__&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Action Status&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_04bb10c3c3991210ba0758e1b401319b&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:44:25&lt;/sys_created_on&gt;&lt;sys_id&gt;23acdc07c3991210ba0758e1b4013167&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="SpartaCourses" source="x_1538153_spartaco"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SpartaCourses"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:44:25&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;courses&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Courses&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_04bb10c3c3991210ba0758e1b401319b&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:44:24&lt;/sys_created_on&gt;&lt;sys_id&gt;67acdc07c3991210ba0758e1b401315c&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="SpartaCourses" source="x_1538153_spartaco"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SpartaCourses"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:44:24&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;__dont_treat_as_error__&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Don't Treat as Error&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_04bb10c3c3991210ba0758e1b401319b&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:44:24&lt;/sys_created_on&gt;&lt;sys_id&gt;abacdc07c3991210ba0758e1b4013162&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="SpartaCourses" source="x_1538153_spartaco"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SpartaCourses"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:44:24&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_04bb10c3c3991210ba0758e1b401319b"/&gt;&lt;sys_hub_action_plan action="delete_multiple" query="action_id=04bb10c3c3991210ba0758e1b401319b"/&gt;&lt;sys_hub_action_type_snapshot action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;acls/&gt;&lt;action_status/&gt;&lt;action_template/&gt;&lt;annotation/&gt;&lt;attributes&gt;{labelCacheCleanUpExecuted=true}&lt;/attributes&gt;&lt;authored_on_release_version&gt;26000&lt;/authored_on_release_version&gt;&lt;callable_by_client_api&gt;false&lt;/callable_by_client_api&gt;&lt;category display_value=""&gt;{}&lt;/category&gt;&lt;copied_from/&gt;&lt;copied_from_name/&gt;&lt;description/&gt;&lt;flow_priority/&gt;&lt;internal_name&gt;get_all_courses_in_range&lt;/internal_name&gt;&lt;label_cache&gt;[{"name":"{{action.variable}}","label":"action➛variable","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.variable1}}","label":"action➛variable1","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.startdate}}","label":"action➛variable","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.starddate}}","label":"action➛stardDate","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.start_date}}","label":"action➛Start Date","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action._}}","label":"action➛","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.lower_range}}","label":"action➛Lower Range","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{action.upper_range}}","label":"action➛Upper Range","type":"action","ref":"","reference_display":"","base_type":"datetime","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[18463ae2-966c-45fc-b875-ae8cb8ef5ab5].records}}","label":"step➛Look Up Records step➛Courses records","type":"step","ref":"","reference_display":"","base_type":"records","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]&lt;/label_cache&gt;&lt;master&gt;true&lt;/master&gt;&lt;name&gt;Get All Courses In Range&lt;/name&gt;&lt;natlang/&gt;&lt;outputs/&gt;&lt;outputs/&gt;&lt;parent_action display_value="Get All Courses In Range"&gt;04bb10c3c3991210ba0758e1b401319b&lt;/parent_action&gt;&lt;sys_class_name&gt;sys_hub_action_type_snapshot&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:45:12&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;dbdc1447c3991210ba0758e1b4013152&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_overrides/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SpartaCourses"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:12&lt;/sys_updated_on&gt;&lt;system_level&gt;false&lt;/system_level&gt;&lt;type/&gt;&lt;/sys_hub_action_type_snapshot&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=dbdc1447c3991210ba0758e1b4013152"/&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=dbdc1447c3991210ba0758e1b4013152"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_type_snapshot&lt;/document&gt;&lt;document_key&gt;dbdc1447c3991210ba0758e1b4013152&lt;/document_key&gt;&lt;order&gt;2&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:45:13&lt;/sys_created_on&gt;&lt;sys_id&gt;27dc1447c3991210ba0758e1b4013195&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:13&lt;/sys_updated_on&gt;&lt;value&gt;0&lt;/value&gt;&lt;variable display_value="Don't Treat as Error"&gt;93dc1447c3991210ba0758e1b4013179&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_action_type_snapshot&lt;/document&gt;&lt;document_key&gt;dbdc1447c3991210ba0758e1b4013152&lt;/document_key&gt;&lt;order&gt;3&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:45:13&lt;/sys_created_on&gt;&lt;sys_id&gt;e7dc1447c3991210ba0758e1b4013195&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:13&lt;/sys_updated_on&gt;&lt;value&gt;{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"4adfb7bc-9d67-498d-88d0-8d6c3d584fed\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}&lt;/value&gt;&lt;variable display_value="Action Status"&gt;97dc1447c3991210ba0758e1b401317f&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=dbdc1447c3991210ba0758e1b4013152"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;courses&lt;/field&gt;&lt;id&gt;dbdc1447c3991210ba0758e1b4013152&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:45:13&lt;/sys_created_on&gt;&lt;sys_id&gt;2fdc1447c3991210ba0758e1b4013194&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_output_dbdc1447c3991210ba0758e1b4013152&lt;/table&gt;&lt;value&gt;{{step[18463ae2-966c-45fc-b875-ae8cb8ef5ab5].records}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;__action_status__&lt;/field&gt;&lt;id&gt;dbdc1447c3991210ba0758e1b4013152&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:45:13&lt;/sys_created_on&gt;&lt;sys_id&gt;a3dc1447c3991210ba0758e1b4013195&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_output_dbdc1447c3991210ba0758e1b4013152&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;__dont_treat_as_error__&lt;/field&gt;&lt;id&gt;dbdc1447c3991210ba0758e1b4013152&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:45:13&lt;/sys_created_on&gt;&lt;sys_id&gt;efdc1447c3991210ba0758e1b4013194&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:13&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_hub_action_output_dbdc1447c3991210ba0758e1b4013152&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_hub_step_instance action="delete_multiple" query="action=dbdc1447c3991210ba0758e1b4013152^sys_idNOT INd3dc1447c3991210ba0758e1b401316c"/&gt;&lt;sys_hub_step_instance action="INSERT_OR_UPDATE"&gt;&lt;action display_value="Get All Courses In Range"&gt;dbdc1447c3991210ba0758e1b4013152&lt;/action&gt;&lt;cid&gt;18463ae2-966c-45fc-b875-ae8cb8ef5ab5&lt;/cid&gt;&lt;error_handling_type&gt;1&lt;/error_handling_type&gt;&lt;extended_inputs/&gt;&lt;extended_outputs/&gt;&lt;icon/&gt;&lt;inputs/&gt;&lt;inputs/&gt;&lt;label&gt;Look Up Records step&lt;/label&gt;&lt;order&gt;1&lt;/order&gt;&lt;outputs/&gt;&lt;section/&gt;&lt;step_type display_value="Look Up Records"&gt;48526b2dc32a32002841b63b12d3ae72&lt;/step_type&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:45:12&lt;/sys_created_on&gt;&lt;sys_id&gt;d3dc1447c3991210ba0758e1b401316c&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_scope display_value="SpartaCourses"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_scope&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:12&lt;/sys_updated_on&gt;&lt;/sys_hub_step_instance&gt;&lt;sys_variable_value action="delete_multiple" query="document_key=d3dc1447c3991210ba0758e1b401316c"/&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;d3dc1447c3991210ba0758e1b401316c&lt;/document_key&gt;&lt;order&gt;300&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:45:12&lt;/sys_created_on&gt;&lt;sys_id&gt;13dc1447c3991210ba0758e1b4013171&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:12&lt;/sys_updated_on&gt;&lt;value&gt;course_id&lt;/value&gt;&lt;variable display_value="Order by"&gt;2df79dd187003300663ca1bb36cb0b33&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_variable_value action="INSERT_OR_UPDATE"&gt;&lt;document&gt;sys_hub_step_instance&lt;/document&gt;&lt;document_key&gt;d3dc1447c3991210ba0758e1b401316c&lt;/document_key&gt;&lt;order&gt;100&lt;/order&gt;&lt;sys_class_name&gt;sys_variable_value&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:45:12&lt;/sys_created_on&gt;&lt;sys_id&gt;d3dc1447c3991210ba0758e1b4013171&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:12&lt;/sys_updated_on&gt;&lt;value&gt;x_1538153_spartaco_courses&lt;/value&gt;&lt;variable display_value="Table"&gt;4d19bb21c36a32002841b63b12d3aeef&lt;/variable&gt;&lt;/sys_variable_value&gt;&lt;sys_element_mapping action="delete_multiple" query="id=d3dc1447c3991210ba0758e1b401316c"/&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;conditions&lt;/field&gt;&lt;id&gt;d3dc1447c3991210ba0758e1b401316c&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:45:12&lt;/sys_created_on&gt;&lt;sys_id&gt;dbdc1447c3991210ba0758e1b4013170&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:12&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_48526b2dc32a32002841b63b12d3ae72&lt;/table&gt;&lt;value&gt;start_date&amp;gt;={{action.lower_range}}^start_date&amp;lt;={{action.upper_range}}&lt;/value&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;sort_column&lt;/field&gt;&lt;id&gt;d3dc1447c3991210ba0758e1b401316c&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:45:12&lt;/sys_created_on&gt;&lt;sys_id&gt;1bdc1447c3991210ba0758e1b4013170&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:12&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_48526b2dc32a32002841b63b12d3ae72&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_element_mapping action="INSERT_OR_UPDATE"&gt;&lt;field&gt;table_name&lt;/field&gt;&lt;id&gt;d3dc1447c3991210ba0758e1b401316c&lt;/id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:45:12&lt;/sys_created_on&gt;&lt;sys_id&gt;9fdc1447c3991210ba0758e1b4013170&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:12&lt;/sys_updated_on&gt;&lt;table&gt;var__m_sys_flow_step_definition_input_48526b2dc32a32002841b63b12d3ae72&lt;/table&gt;&lt;value/&gt;&lt;/sys_element_mapping&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=d3dc1447c3991210ba0758e1b401316c"/&gt;&lt;sys_hub_step_ext_input action="delete_multiple" query="model=d3dc1447c3991210ba0758e1b401316c"/&gt;&lt;sys_hub_step_ext_output action="delete_multiple" query="model=d3dc1447c3991210ba0758e1b401316c"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=d3dc1447c3991210ba0758e1b401316c"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_step_ext_output_d3dc1447c3991210ba0758e1b401316c"/&gt;&lt;sys_hub_action_input action="delete_multiple" query="model=dbdc1447c3991210ba0758e1b4013152^sys_idNOT IN97dc1447c3991210ba0758e1b4013162,d3dc1447c3991210ba0758e1b4013167"/&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=datetime,uiTypeLabel=Basic Date/Time,uiUniqueId=d2e1c0f1-39ac-4316-b683-9e257964891e&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;lower_range&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;datetime&lt;/internal_type&gt;&lt;label&gt;Lower Range&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="Get All Courses In Range"&gt;dbdc1447c3991210ba0758e1b4013152&lt;/model&gt;&lt;model_id&gt;dbdc1447c3991210ba0758e1b4013152&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_dbdc1447c3991210ba0758e1b4013152&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:45:12&lt;/sys_created_on&gt;&lt;sys_id&gt;97dc1447c3991210ba0758e1b4013162&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SpartaCourses"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:12&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=97dc1447c3991210ba0758e1b4013162"/&gt;&lt;sys_hub_action_input action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=datetime,uiTypeLabel=Basic Date/Time,uiUniqueId=03fe1833-6d45-4ee8-b209-073eed6aee05&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;upper_range&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_type display_value=""&gt;datetime&lt;/internal_type&gt;&lt;label&gt;Upper Range&lt;/label&gt;&lt;mandatory&gt;true&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="Get All Courses In Range"&gt;dbdc1447c3991210ba0758e1b4013152&lt;/model&gt;&lt;model_id&gt;dbdc1447c3991210ba0758e1b4013152&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_input_dbdc1447c3991210ba0758e1b4013152&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_input&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:45:12&lt;/sys_created_on&gt;&lt;sys_id&gt;d3dc1447c3991210ba0758e1b4013167&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SpartaCourses"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:12&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_input&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=d3dc1447c3991210ba0758e1b4013167"/&gt;&lt;sys_hub_action_output action="delete_multiple" query="model=dbdc1447c3991210ba0758e1b4013152^sys_idNOT IN1bdc1447c3991210ba0758e1b4013172,93dc1447c3991210ba0758e1b4013179,97dc1447c3991210ba0758e1b401317f"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=glide_list,uiTypeLabel=List,uiUniqueId=3c18f2b0-aa29-4769-b6bf-994df85f8510&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table&gt;x_1538153_spartaco_courses&lt;/choice_table&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;courses&lt;/element&gt;&lt;element_prototype display_value="Records" element="records" name="var__m_sys_flow_step_definition_output_48526b2dc32a32002841b63b12d3ae72"&gt;5db8f721c36a32002841b63b12d3aeb7&lt;/element_prototype&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value=""&gt;glide_list&lt;/internal_type&gt;&lt;label&gt;Courses&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;1024&lt;/max_length&gt;&lt;model display_value="Get All Courses In Range"&gt;dbdc1447c3991210ba0758e1b4013152&lt;/model&gt;&lt;model_id&gt;dbdc1447c3991210ba0758e1b4013152&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_dbdc1447c3991210ba0758e1b4013152&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;1&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference display_value="" name="x_1538153_spartaco_courses"&gt;x_1538153_spartaco_courses&lt;/reference&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:45:12&lt;/sys_created_on&gt;&lt;sys_id&gt;1bdc1447c3991210ba0758e1b4013172&lt;/sys_id&gt;&lt;sys_mod_count&gt;2&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SpartaCourses"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:13&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1bdc1447c3991210ba0758e1b4013172"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=1bdc1447c3991210ba0758e1b4013172"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=5a2c26e2-45f0-495d-ab21-6274e8fb86a2,visible_in_ui=false&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value&gt;true&lt;/default_value&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;__dont_treat_as_error__&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value=""&gt;boolean&lt;/internal_type&gt;&lt;label&gt;Don't Treat as Error&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;model display_value="Get All Courses In Range"&gt;dbdc1447c3991210ba0758e1b4013152&lt;/model&gt;&lt;model_id&gt;dbdc1447c3991210ba0758e1b4013152&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_dbdc1447c3991210ba0758e1b4013152&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;2&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:45:12&lt;/sys_created_on&gt;&lt;sys_id&gt;93dc1447c3991210ba0758e1b4013179&lt;/sys_id&gt;&lt;sys_mod_count&gt;1&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SpartaCourses"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:13&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=93dc1447c3991210ba0758e1b4013179"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=93dc1447c3991210ba0758e1b4013179"/&gt;&lt;sys_hub_action_output action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;array_denormalized&gt;false&lt;/array_denormalized&gt;&lt;attributes&gt;action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=cc4393af-cb1a-497a-b8b6-c7c6fe149e9f&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;__action_status__&lt;/element&gt;&lt;element_prototype/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;help/&gt;&lt;hint/&gt;&lt;internal_link/&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;label&gt;Action Status&lt;/label&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;65000&lt;/max_length&gt;&lt;model display_value="Get All Courses In Range"&gt;dbdc1447c3991210ba0758e1b4013152&lt;/model&gt;&lt;model_id&gt;dbdc1447c3991210ba0758e1b4013152&lt;/model_id&gt;&lt;model_table&gt;sys_hub_action_type_snapshot&lt;/model_table&gt;&lt;name&gt;var__m_sys_hub_action_output_dbdc1447c3991210ba0758e1b4013152&lt;/name&gt;&lt;next_element/&gt;&lt;order&gt;3&lt;/order&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;sizeclass/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_hub_action_output&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:45:13&lt;/sys_created_on&gt;&lt;sys_id&gt;97dc1447c3991210ba0758e1b401317f&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package/&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SpartaCourses"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:13&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_hub_action_output&gt;&lt;sys_hub_action_input_action_instance action="delete_multiple" query="action_input=97dc1447c3991210ba0758e1b401317f"/&gt;&lt;sys_hub_input_scripts action="delete_multiple" query="instance=97dc1447c3991210ba0758e1b401317f"/&gt;&lt;sys_hub_pill_compound action="delete_multiple" query="attached_to=dbdc1447c3991210ba0758e1b4013152"/&gt;&lt;sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=dbdc1447c3991210ba0758e1b4013152^sys_idNOT INa3dc1447c3991210ba0758e1b4013197"/&gt;&lt;sys_hub_action_status_metadata action="INSERT_OR_UPDATE"&gt;&lt;action_type_id display_value="Get All Courses In Range"&gt;dbdc1447c3991210ba0758e1b4013152&lt;/action_type_id&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:45:13&lt;/sys_created_on&gt;&lt;sys_id&gt;a3dc1447c3991210ba0758e1b4013197&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:13&lt;/sys_updated_on&gt;&lt;/sys_hub_action_status_metadata&gt;&lt;sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=a3dc1447c3991210ba0758e1b4013197"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_dbdc1447c3991210ba0758e1b4013152^sys_idNOT IN97dc1447c3991210ba0758e1b401316a,d3dc1447c3991210ba0758e1b4013166"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;upper_range&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Upper Range&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_input_dbdc1447c3991210ba0758e1b4013152&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:45:12&lt;/sys_created_on&gt;&lt;sys_id&gt;97dc1447c3991210ba0758e1b401316a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="SpartaCourses" source="x_1538153_spartaco"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SpartaCourses"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:12&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;lower_range&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Lower Range&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_input_dbdc1447c3991210ba0758e1b4013152&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:45:12&lt;/sys_created_on&gt;&lt;sys_id&gt;d3dc1447c3991210ba0758e1b4013166&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="SpartaCourses" source="x_1538153_spartaco"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SpartaCourses"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:12&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_dbdc1447c3991210ba0758e1b4013152"/&gt;&lt;sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_dbdc1447c3991210ba0758e1b4013152^sys_idNOT IN93dc1447c3991210ba0758e1b4013178,97dc1447c3991210ba0758e1b401317e,dbdc1447c3991210ba0758e1b4013182"/&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;courses&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Courses&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_dbdc1447c3991210ba0758e1b4013152&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:45:12&lt;/sys_created_on&gt;&lt;sys_id&gt;93dc1447c3991210ba0758e1b4013178&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="SpartaCourses" source="x_1538153_spartaco"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SpartaCourses"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:12&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;__dont_treat_as_error__&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Don't Treat as Error&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_dbdc1447c3991210ba0758e1b4013152&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:45:13&lt;/sys_created_on&gt;&lt;sys_id&gt;97dc1447c3991210ba0758e1b401317e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="SpartaCourses" source="x_1538153_spartaco"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SpartaCourses"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:13&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_documentation action="INSERT_OR_UPDATE"&gt;&lt;element&gt;__action_status__&lt;/element&gt;&lt;help/&gt;&lt;hint/&gt;&lt;label&gt;Action Status&lt;/label&gt;&lt;language&gt;en&lt;/language&gt;&lt;name&gt;var__m_sys_hub_action_output_dbdc1447c3991210ba0758e1b4013152&lt;/name&gt;&lt;plural/&gt;&lt;sys_class_name&gt;sys_documentation&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-10-21 13:45:13&lt;/sys_created_on&gt;&lt;sys_id&gt;dbdc1447c3991210ba0758e1b4013182&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="SpartaCourses" source="x_1538153_spartaco"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="SpartaCourses"&gt;556aeb72c3951210ba0758e1b401311b&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-10-21 13:45:13&lt;/sys_updated_on&gt;&lt;url/&gt;&lt;url_target/&gt;&lt;/sys_documentation&gt;&lt;sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_dbdc1447c3991210ba0758e1b4013152"/&gt;&lt;sys_hub_action_type_definition action="UPDATE"&gt;&lt;sys_id&gt;04bb10c3c3991210ba0758e1b401319b&lt;/sys_id&gt;&lt;latest_snapshot&gt;dbdc1447c3991210ba0758e1b4013152&lt;/latest_snapshot&gt;&lt;compiler_build&gt;glide-xanadu-07-02-2024__patch0-07-16-2024_07-27-2024_1019.zip&lt;/compiler_build&gt;&lt;/sys_hub_action_type_definition&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-666540813</payload_hash>
+        <record_name>Get All Courses In Range</record_name>
+        <reverted_from/>
+        <source>c8f63fb2c3d51210ba0758e1b4013158</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:45:14</sys_created_on>
+        <sys_id>2bdc1447c3991210ba0758e1b40131b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192af5322ac0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:45:14</sys_updated_on>
+        <type>Action Type</type>
+        <update_guid>efdc14470d991210109c298a99768db4</update_guid>
+        <update_guid_history>efdc14470d991210109c298a99768db4:-666540813,f3acdc07559912105869e2129783957e:1083316954,44bbd8c362991210f4e85172feb267e5:1541507762</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 13:52:55</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_action_type_definition">sys_hub_action_type_definition</sys_db_object>
+        <sys_id>71c95408bdf9493cbe27b82b4b722849</sys_id>
+        <sys_metadata>04bb10c3c3991210ba0758e1b401319b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Get All Courses In Range</sys_name>
+        <sys_package display_value="SpartaCourses" source="x_1538153_spartaco">556aeb72c3951210ba0758e1b401311b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_scope_delete display_value="">7d2c0a027228498297821ea5c1fcfc89</sys_scope_delete>
+        <sys_update_name>sys_hub_action_type_definition_04bb10c3c3991210ba0758e1b401319b</sys_update_name>
+        <sys_update_version display_value="sys_hub_action_type_definition_04bb10c3c3991210ba0758e1b401319b">2bdc1447c3991210ba0758e1b40131b5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 13:52:55</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
