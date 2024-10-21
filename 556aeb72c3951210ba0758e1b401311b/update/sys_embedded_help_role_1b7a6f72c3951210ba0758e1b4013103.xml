@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1538153_spartaco.sparta_course" name="x_1538153_spartaco.sparta_course">4b7a2f72c3951210ba0758e1b40131fd</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2024-10-21 10:05:07</sys_created_on>
+        <sys_id>1b7a6f72c3951210ba0758e1b4013103</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4b7a2f72c3951210ba0758e1b40131fd</sys_name>
+        <sys_package display_value="SpartaCourses" source="x_1538153_spartaco">556aeb72c3951210ba0758e1b401311b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="SpartaCourses">556aeb72c3951210ba0758e1b401311b</sys_scope>
+        <sys_update_name>sys_embedded_help_role_1b7a6f72c3951210ba0758e1b4013103</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2024-10-21 10:05:07</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
